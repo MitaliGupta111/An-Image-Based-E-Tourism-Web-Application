@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smart Travel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "static/new/font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "static/new/css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "static/new/css/utility.css">
+        <link rel = "stylesheet" href = "static/new/css/style.css">
+        <link rel = "stylesheet" href = "static/newcss/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "{{url_for('index')}}" class = "site-brand">
+                    Image<span>Tourist Guide</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "{{url_for('index')}}" class = "nav-link">Home</a>
+                        </li>
+                    
+                        <li class = "nav-item">
+                            <a href = "{{url_for('about')}}" class = "nav-link">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>About Us</h1>
+                 </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- about section -->
+        <section id = "about" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                 
+                </div>
+
+                <div class = "about-row">
+                    <div class = "about-right">
+                        <h2>Project Introduction</h2>
+                        <p class = "text">Image Tourist Guide is an internet Application that acts as a guide giving out outputs to the user for each input given to the system. In our system, we are implementing some additional features like information of tourist spot through image processing, nearby tourist spots, restaurants, hotels and live weather conditions. In our system, tourist can even explore a city’s famous landmarks. Our system also ensures that only the relevant information is available to the tourists.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- facts section -->
+        <section id = "facts" class = "py-4 flex">
+            <div class = "container">
+                <div class = 'title-wrap'>
+                    <span class = "sm-title"></span>
+                    <h2 class = "lg-title">Team Introduction</h2>
+                </div>
+
+                <div class = "facts-row">
+                    <div class = "facts-item">
+                        
+                        <div class = "facts-info">
+                            
+                            <p class = "text">Loveena Ramchandani</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "facts-item">
+                        
+                        <div class = "facts-info">
+                            
+                            <p class = "text">Mansi Jaiswal</p>
+                        </div>
+                    </div>
+
+                    <div class = "facts-item">
+                        
+                        <div class = "facts-info">
+                            
+                           <p class = "text">Mitali Gupta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of facts section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "indexpage.html" class = "site-brand">
+                        Image<span>Tourist Guide</span>
+                    </a>
+                    </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>
